@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Autos Today</title>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="description" content="Site description will be here" />
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+    <link
+      href="https://kit-pro.fontawesome.com/releases/v5.15.2/css/pro.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/default-edit.css" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" type="text/css" href="css/responsive.css" />
+    <!--End ALL STYLESHEET -->
+  </head>
+
+  <body>
+    <!-- preloader -->
+    <div id="preloader"></div>
+    <!-- preloader-end -->
+    <!-- main-wrap -->
+    <div class="main-wrap">
+      <!-- offcanvas-start -->
+      <div class="offcanvas-menu">
+        <ul class="offmenu" id="menuParent">
+          <a href="#" class="offcanvas-close"><i class="fa fa-times"></i></a>
+          <li class="active"><a href="#">HOME</a></li>
+          <li><a href="#">ABOUT US</a></li>
+          <li class="dropdown">
+            <a href="#" data-bs-toggle="collapse" data-bs-target="#drop-menu1"
+              >OUR HORSES</a
+            >
+            <div
+              class="dropdown-menu-custom collapse"
+              id="drop-menu1"
+              data-bs-parent="#menuParent"
+            >
+              <ul>
+                <li><a href="#">YEARLINGS</a></li>
+                <li><a href="#">2 YEAR OLDS</a></li>
+                <li><a href="#">3 YEAR OLD PLUS</a></li>
+              </ul>
+            </div>
+          </li>
+          <li><a href="#">LATEST NEWS</a></li>
+          <li><a href="#">CONTACT & FIND US</a></li>
+        </ul>
+      </div>
+      <div class="offcanvas-overlay"></div>
+      <!-- offcanvas-start-end -->
+
+      <!-- header-section -->
+      <header class="header-section">
+        <div class="header-in">
+          <div class="container">
+            <div class="header-section__inner">
+              <a href="index.html" class="header-logo">
+                <img src="images/logo.svg" alt="" />
+              </a>
+
+              <div class="header-right">
+                <div class="main-menu">
+                  <ul>
+                    <li><a href="#">Buy a Car</a></li>
+                    <li><a href="#">Sell Your Car</a></li>
+                    <li><a href="#">How It Works</a></li>
+                    <li><a href="#">Dealers</a></li>
+                    <li><a href="#">Login</a></li>
+                  </ul>
+                </div>
+                <a href="#" class="default-button hr-button">List a Vehicle</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+      <!--End header-section -->
+
+      <!-- main -->
+      <main>
+        <!-- hero-section -->
+        <section class="hero-section pb-0">
+          <div class="container">
+            <div class="hero-section__inner">
+              <div class="hero__row row">
+                <div class="col-lg-6">
+                  <div class="hero-content">
+                    <h1 class="h1">Sell your car, today.</h1>
+                    <p>
+                      With AutosToday, you’re in control. It’s fast and simple:
+                      list your car and start receiving offers from over 100
+                      dealerships in our network.
+                    </p>
+                  </div>
+                </div>
+                <div class="col-lg-6">
+                  <div class="hero-image">
+                    <img src="images/hero-car-image.png" alt="" class="img" />
+                  </div>
+                </div>
+              </div>
+
+              <div class="hero__box">
+                <div class="hero__box__row">
+                  <div class="hero__box__content">
+                    <h2>List Your Vehicle</h2>
+                    <ul class="check-ellipse-ul">
+                      <li>
+                        Create a vehicle listing in minutes using your car’s VIN
+                        number and mileage, plate number, or make and model
+                      </li>
+                      <li>Add optional photos and additional details</li>
+                      <li>Wait for offers!</li>
+                    </ul>
+                    <p>
+                      This platform is free to use and keeps your information
+                      anonymous. You are not obligated to sell your car once it
+                      is listed.
+                    </p>
+                  </div>
+                  <form class="hero__box__form">
+                    <!--  -->
+                    <div class="form-slide">
+                      <div class="hero-box__form__title">
+                        <div class="hbf-p-nav">
+                          <ul class="nav">
+                            <li><a class="active" href="#">VIN</a></li>
+                            <li><a href="#">PLATE</a></li>
+                            <li><a href="#">MAKE</a></li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="hero-box__form__main row">
+                        <div class="col-12">
+                          <div class="single-input-x mb-2 pb-1">
+                            <div class="input-x-outer">
+                              <input
+                                type="text"
+                                class="input-x"
+                                placeholder=""
+                              />
+                              <div class="input-x-placeholder">VIN number</div>
+                            </div>
+                            <div class="x-bt-lbl">Where to find the VIN?</div>
+                          </div>
+                        </div>
+                        <div class="col-md-6">
+                          <div class="single-input-x">
+                            <div class="input-x-outer">
+                              <input
+                                type="text"
+                                class="input-x"
+                                placeholder=""
+                              />
+                              <div class="input-x-placeholder">Mileage</div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-md-6">
+                          <div class="single-input-x">
+                            <div class="input-x-outer">
+                              <input
+                                type="text"
+                                class="input-x"
+                                placeholder=""
+                                value="17402"
+                              />
+                              <div class="input-x-placeholder">Zip Code</div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-12">
+                          <input
+                            type="submit"
+                            class="input-x input-x--submit"
+                            value="Continue"
+                          />
+                        </div>
+                      </div>
+                      <div class="hero-box__form__bottom">
+                        <div class="form-bt-progress">
+                          <span class="span active"></span>
+                          <span class="span"></span>
+                        </div>
+                      </div>
+                    </div>
+                    <!--  -->
+                  </form>
+                </div>
+              </div>
+              <div class="h-0">&nbsp;</div>
+            </div>
+          </div>
+        </section>
+        <!-- hero-section end -->
+
+        <!-- how-section -->
+        <section class="how-section pb-0">
+          <div class="container">
+            <div class="how-section__inner">
+              <div class="how-row row">
+                <div class="col-lg-4">
+                  <div class="how__image">
+                    <img
+                      src="images/complete-your-autos-today-profile.png"
+                      alt=""
+                      class="img"
+                    />
+                  </div>
+                </div>
+                <div class="col-lg-8">
+                  <div class="how__content ms-xl-4">
+                    <h3>How it Works</h3>
+                    <h4>It’s Easy to Use</h4>
+                    <ol class="ol-1">
+                      <li>
+                        <span class="fw-700">Choose your platform.</span> Use
+                        the website or download the free Autos Today app.
+                      </li>
+                      <li>
+                        <span class="fw-700">Add your vehicle.</span> Follow the
+                        prompts to upload your vehicle information.
+                      </li>
+                      <li>
+                        <span class="fw-700"
+                          >Get bids and finalize your deal!</span
+                        >
+                        Once your vehicle has been added, alerts are sent to
+                        pre-screened car dealerships nationwide. All messaging
+                        can be done securely and privately through the app.
+                      </li>
+                    </ol>
+
+                    <h4 class="pt-2">You'll also get...</h4>
+                    <p>
+                      <img src="images/autocheck.svg" alt="" class="p-logo" />
+                      <span class="txt"
+                        >Free AutoCheck vehicle history report to provide
+                        verified vehicle information to potential buyers</span
+                      >
+                    </p>
+                    <p>
+                      <img src="images/jd-power.svg" alt="" class="p-logo" />
+                      <span class="txt"
+                        >Free trade-in value from JD Power to help you determine
+                        what your car is worth and get the best value on a
+                        sale</span
+                      >
+                    </p>
+                    <a href="#" class="learn-btn">Learn More</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- how-section-end -->
+
+        <!-- recent-section -->
+        <section class="recent-section">
+          <div class="container">
+            <div class="recent-section__inner">
+              <div class="recent-section__title">
+                <h2 class="mb-0">Recently Sold</h2>
+              </div>
+
+              <div class="recent-card__row row">
+                <div class="col-lg-4 col-md-4">
+                  <div class="recent-card">
+                    <a href="#" class="recent-card__image">
+                      <img src="images/sold.png" alt="" class="img" />
+                    </a>
+                    <div class="recent-card__content">
+                      <h4>Year Make Model</h4>
+                      <h5>Location</h5>
+                      <h5 class="mb-0">$Asking Price</h5>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-4">
+                  <div class="recent-card">
+                    <a href="#" class="recent-card__image">
+                      <img src="images/sold.png" alt="" class="img" />
+                    </a>
+                    <div class="recent-card__content">
+                      <h4>Year Make Model</h4>
+                      <h5>Location</h5>
+                      <h5 class="mb-0">$Asking Price</h5>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-4">
+                  <div class="recent-card">
+                    <a href="#" class="recent-card__image">
+                      <img src="images/sold.png" alt="" class="img" />
+                    </a>
+                    <div class="recent-card__content">
+                      <h4>Year Make Model</h4>
+                      <h5>Location</h5>
+                      <h5 class="mb-0">$Asking Price</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- recent-section-end -->
+
+        <!--  -->
+      </main>
+      <!-- main end -->
+
+      <!-- footer-section -->
+      <footer class="footer-section">
+        <div class="container">
+          <div class="footer-section__inner">
+            <p class="footer-p">
+              Existing footer will be here, with updated background color.
+            </p>
+          </div>
+        </div>
+      </footer>
+      <!--End footer-section -->
+    </div>
+    <!-- main-wrap -->
+
+    <!-- js -->
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+    <!-- End All Js -->
+  </body>
+</html>
