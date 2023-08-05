@@ -27,29 +27,21 @@
     <div class="main-wrap">
       <!-- offcanvas-start -->
       <div class="offcanvas-menu">
-        <ul class="offmenu" id="menuParent">
-          <a href="#" class="offcanvas-close"><i class="fa fa-times"></i></a>
-          <li class="active"><a href="#">HOME</a></li>
-          <li><a href="#">ABOUT US</a></li>
-          <li class="dropdown">
-            <a href="#" data-bs-toggle="collapse" data-bs-target="#drop-menu1"
-              >OUR HORSES</a
-            >
-            <div
-              class="dropdown-menu-custom collapse"
-              id="drop-menu1"
-              data-bs-parent="#menuParent"
-            >
-              <ul>
-                <li><a href="#">YEARLINGS</a></li>
-                <li><a href="#">2 YEAR OLDS</a></li>
-                <li><a href="#">3 YEAR OLD PLUS</a></li>
-              </ul>
-            </div>
-          </li>
-          <li><a href="#">LATEST NEWS</a></li>
-          <li><a href="#">CONTACT & FIND US</a></li>
-        </ul>
+        <div class="offmenu" id="menuParent">
+          <a href="#" class="offcanvas-close"><i class="fal fa-times"></i></a>
+
+          <ul class="mobile-menu">
+            <li><a href="#">Buy a Car</a></li>
+            <li><a href="#">Sell Your Car</a></li>
+            <li><a href="#">How It Works</a></li>
+            <li><a href="#">Dealers</a></li>
+            <li><a href="#">Login</a></li>
+          </ul>
+
+          <div class="d-flex justify-content-center mt-4">
+            <a href="#" class="default-button hr-button">List a Vehicle</a>
+          </div>
+        </div>
       </div>
       <div class="offcanvas-overlay"></div>
       <!-- offcanvas-start-end -->
@@ -63,7 +55,7 @@
                 <img src="images/logo.svg" alt="" />
               </a>
 
-              <div class="header-right">
+              <div class="header-right d-lg-flex d-none">
                 <div class="main-menu">
                   <ul>
                     <li><a href="#">Buy a Car</a></li>
@@ -75,6 +67,10 @@
                 </div>
                 <a href="#" class="default-button hr-button">List a Vehicle</a>
               </div>
+
+              <a href="#" class="offcanvas-open d-lg-none">
+                <i class="far fa-bars"></i>
+              </a>
             </div>
           </div>
         </div>
@@ -108,7 +104,7 @@
               <div class="hero__box">
                 <div class="hero__box__row">
                   <div class="hero__box__content">
-                    <h2>List Your Vehicle</h2>
+                    <h2 class="d-lg-block d-none">List Your Vehicle</h2>
                     <ul class="check-ellipse-ul">
                       <li>
                         Create a vehicle listing in minutes using your car’s VIN
@@ -127,6 +123,7 @@
                     <!--  -->
                     <div class="form-slide">
                       <div class="hero-box__form__title">
+                        <h2 class="d-lg-none">List Your Vehicle</h2>
                         <div class="hbf-p-nav">
                           <ul class="nav">
                             <li><a class="active" href="#">VIN</a></li>
@@ -149,7 +146,7 @@
                             <div class="x-bt-lbl">Where to find the VIN?</div>
                           </div>
                         </div>
-                        <div class="col-md-6">
+                        <div class="col-6">
                           <div class="single-input-x">
                             <div class="input-x-outer">
                               <input
@@ -161,7 +158,7 @@
                             </div>
                           </div>
                         </div>
-                        <div class="col-md-6">
+                        <div class="col-6">
                           <div class="single-input-x">
                             <div class="input-x-outer">
                               <input
@@ -204,7 +201,7 @@
           <div class="container">
             <div class="how-section__inner">
               <div class="how-row row">
-                <div class="col-lg-4">
+                <div class="col-lg-4 d-lg-block d-none">
                   <div class="how__image">
                     <img
                       src="images/complete-your-autos-today-profile.png"
@@ -269,8 +266,8 @@
                 <h2 class="mb-0">Recently Sold</h2>
               </div>
 
-              <div class="recent-card__row row">
-                <div class="col-lg-4 col-md-4">
+              <div class="recent-card__row row gy-3">
+                <div class="col-lg-4 col-md-6">
                   <div class="recent-card">
                     <a href="#" class="recent-card__image">
                       <img src="images/sold.png" alt="" class="img" />
@@ -282,7 +279,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="col-lg-4 col-md-4">
+                <div class="col-lg-4 col-md-6">
                   <div class="recent-card">
                     <a href="#" class="recent-card__image">
                       <img src="images/sold.png" alt="" class="img" />
@@ -294,7 +291,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="col-lg-4 col-md-4">
+                <div class="col-lg-4 col-md-6">
                   <div class="recent-card">
                     <a href="#" class="recent-card__image">
                       <img src="images/sold.png" alt="" class="img" />

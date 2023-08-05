@@ -11,11 +11,70 @@
     .main-menu > ul {
         gap: 20px;
     }
+
+
+    .hero-content .h1 {
+        font-size: 32px;
+        margin-bottom: 20px;
+        letter-spacing: 1px;
+    }
+    .hero-content p {
+        font-size: 24px;
+    }
+    .hero__box {
+        margin: -18px 0 -115px;
+        padding: 34px 22px;
+    }
+    .hero__box__row {
+        gap: 40px;
+    }
+
+    .how-section__inner {
+        margin: 0;
+    }
+
+    .recent-section__inner {
+        padding: 0;
+    }
+
+    .footer-section__inner {
+        padding: 25px 0;
+        min-height: 350px;
+    }
 }
 
 
 @media (max-width: 991px) {
- 
+    .header-in {
+        padding: 15px 0;
+    }
+
+    .hero__row {
+        --bs-gutter-y: 21px
+    }
+    .hero-image {
+        width: 565px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .hero__box__row {
+        flex-direction: column;
+    }
+    .hero__box__form {
+        order: -1;
+        width: 100%;
+    }
+    .hero__box__row {
+        gap: 20px;
+    }
+    .hero__box {
+        margin: 50px 0 -424px;
+    }
+    .hero-section {
+        padding: 52px 0;
+        margin-bottom: 400px;
+    }
+
 }
 
 
@@ -25,10 +84,60 @@
 
 
 @media (max-width: 575px) {
- 
+    .container {
+        padding: 0 24px;
+    }
+
+    .hero__box {
+        padding: 29px 22px;
+    }
+
+    .how-section {
+        padding: 50px 0;
+    }
+    .how__content p {
+        gap: 12px;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .how-section__inner {
+        padding: 0;
+        border-bottom: none;
+    }
+    .recent-card {
+        gap: 24px;
+        margin-bottom: 2px;
+    }
+    .recent-section {
+        padding: 40px 0 30px;
+    }
 }
 
 
 @media (max-width: 390px) {
- 
+    .hero-content p {
+        font-size: 20px;
+    }
+    .hero-content .h1 {
+        font-size: 28px;
+    }
+    .hero-image {
+        width: 450px;
+    }
+
+    .hero-box__form__title h2 {
+        font-size: 30px;
+        margin-bottom: 24px;
+    }
+    .hbf-p-nav .nav li a {
+        font-size: 16px;
+    }
+
+    .container {
+        padding: 0 15px;
+    }
+    .hero__box {
+        padding: 25px 15px;
+    }
 }

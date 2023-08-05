@@ -150,18 +150,21 @@ p:last-child{
 
 /* ---offcanvas-css--- */
 .offcanvas-open {
-  font-size: 22px;
+  font-size: 27px;
   transition: 0.3s;
+  color: var(--theme__color1);
 }
 .offcanvas-open:hover {
-  color: #97A3AE;
+  color: var(--theme__color2);
 }
 .offcanvas-close {
   color: var(--theme__color1);
   position: absolute;
   transition: 0.3s;
-  right: 25px;
-  top: 25px;
+  right: 15px;
+  top: 15px;
+  font-size: 22px;
+  line-height: 1;
 }
 .offcanvas-close:hover {
   color: #97A3AE;
@@ -184,7 +187,7 @@ p:last-child{
   min-width: 200px;
   z-index: 5;
   position: relative;
-  background: #d5dce2;
+  background: #fff;
   height: 100%;
   padding: 50px 20px 40px;
   overflow: auto;
@@ -194,7 +197,8 @@ p:last-child{
 .offcanvas-menu .offmenu :-webkit-scrollbar {
   display: none;
 }
-.offcanvas-menu ul li a {
+.mobile-menu li a {
+  font-weight: 500;
   display: block;
   text-align: center;
   font-size: 16px;
@@ -277,6 +281,7 @@ p:last-child{
 	margin-bottom: 91px;
 	background: linear-gradient(135deg, #083151 7.67%, #5A6696 100%);
 	color: #fff;
+  position: relative;
 }
 .hero-section__inner {
 
@@ -370,6 +375,11 @@ p:last-child{
 }
 .hero-box__form__title {
   margin-bottom: 23px;
+}
+.hero-box__form__title h2 {
+  font-size: 36px;
+  margin-bottom: 31px;
+  color: var(--theme__color1-dark);
 }
 .hbf-p-nav {
 
