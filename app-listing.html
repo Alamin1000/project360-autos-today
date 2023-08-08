@@ -10,6 +10,7 @@
     <meta name="description" content="Site description will be here" />
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
     <link rel="stylesheet" type="text/css" href="css/dropzone.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/nice-select.css" />
     <link
       href="https://kit-pro.fontawesome.com/releases/v5.15.2/css/pro.min.css"
       rel="stylesheet"
@@ -20,7 +21,7 @@
     <!--End ALL STYLESHEET -->
   </head>
 
-  <body>
+  <body class="lt-page-bg">
     <!-- preloader -->
     <div id="preloader"></div>
     <!-- preloader-end -->
@@ -57,7 +58,7 @@
               </a>
 
               <div class="d-header-right">
-                <div class="dh-get-app">
+                <div class="ht-get-app">
                   <h4 class="mb-0">Get the mobile app</h4>
                   <a href="#" class="get">
                     <img src="images/playstore.png" alt="" />
@@ -144,12 +145,12 @@
               <div class="dm-section__row">
                 <div class="row">
                   <!-- main-side -->
-                  <div class="col-lg-7">
+                  <div class="col-lg-8">
                     <div class="row">
                       <!--  -->
                       <div class="col-12">
                         <div class="dm-main-title">
-                          <h2 class="h2 mb-0">
+                          <h2 class="mb-0">
                             2024 Acura Integra Sedan 4D 1.5L Turbo Auto...
                           </h2>
                         </div>
@@ -161,7 +162,7 @@
                           </div>
                           <div class="dm-bxw__main">
                             <div class="dm-form">
-                              <div class="dm-form__main">
+                              <div class="dm-form__main row">
                                 <div class="col-12">
                                   <div class="x-upload">
                                     <form
@@ -169,31 +170,34 @@
                                       class="dropzone"
                                       id="my-awesome-dropzone"
                                     >
-                                      <div class="custom-design">
+                                      <label
+                                        for="#my-awesome-dropzone"
+                                        class="custom-design"
+                                      >
                                         <div class="up-icon">
                                           <img
                                             src="images/icon/upload.svg"
                                             alt=""
                                           />
-                                          <h4>Upload Photos</h4>
-                                          <p>
-                                            <img
-                                              src="images/icon/alert-octagon.svg"
-                                              alt=""
-                                              class="alt"
-                                            />
-                                            <span class="txt"
-                                              >Listings with photos get more
-                                              bids and better offers</span
-                                            >
-                                          </p>
-                                          <div
-                                            class="default-button default-button--theme2"
-                                          >
-                                            Add Photos
-                                          </div>
                                         </div>
-                                      </div>
+                                        <h4>Upload Photos</h4>
+                                        <p>
+                                          <img
+                                            src="images/icon/alert-octagon.svg"
+                                            alt=""
+                                            class="alt"
+                                          />
+                                          <span class="txt"
+                                            >Listings with photos get more bids
+                                            and better offers</span
+                                          >
+                                        </p>
+                                        <div
+                                          class="default-button default-button--theme2"
+                                        >
+                                          Add Photos
+                                        </div>
+                                      </label>
                                       <div class="dz-message" data-dz-message>
                                         <span></span>
                                       </div>
@@ -254,7 +258,7 @@
                                   </div>
                                 </div>
                                 <div class="col-12">
-                                  <div class="single-input-x mb-2 pb-1">
+                                  <div class="single-input-x">
                                     <div class="input-x-outer">
                                       <input
                                         type="text"
@@ -264,9 +268,6 @@
                                       <div class="input-x-placeholder">
                                         VIN number
                                       </div>
-                                    </div>
-                                    <div class="x-bt-lbl">
-                                      Where to find the VIN?
                                     </div>
                                   </div>
                                 </div>
@@ -396,7 +397,7 @@
                   </div>
                   <!-- main-side-end -->
                   <!-- sidebar-side -->
-                  <div class="col-lg-5">
+                  <div class="col-lg-4">
                     <div class="row">
                       <!--  -->
                       <div class="col-12">
@@ -700,6 +701,7 @@
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/dropzone.min.js"></script>
     <script src="js/jquery.countdown.min.js"></script>
+    <script src="js/jquery.nice-select.min.js"></script>
     <script src="js/main.js"></script>
     <!-- End All Js -->
   </body>

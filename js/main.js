@@ -52,4 +52,7 @@
 $(document).ready(function () {
   // preloader
   $("#preloader").fadeOut(500);
+
+  // nice-select
+  $(".nice-select").niceSelect();
 });

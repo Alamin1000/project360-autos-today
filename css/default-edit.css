@@ -4,7 +4,7 @@
     padding: 10px 16px;
     font-size: 18px;
     font-weight: 700;
-    display: flex;
+    display: inline-flex;
     align-items: center;
     justify-content: center;
     text-align: center;
@@ -17,6 +17,10 @@
 .default-button:hover {
     color: #fff;
     background: #007cb9;
+}
+
+.default-button--theme2 {
+    background: var(--theme__color2);
 }
 /* ---button---end */
 
