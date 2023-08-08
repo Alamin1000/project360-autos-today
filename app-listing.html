@@ -57,7 +57,7 @@
                 <img src="images/logo.svg" alt="" />
               </a>
 
-              <div class="d-header-right">
+              <div class="d-header-right d-xl-flex d-none">
                 <div class="ht-get-app">
                   <h4 class="mb-0">Get the mobile app</h4>
                   <a href="#" class="get">
@@ -77,6 +77,9 @@
                   </a>
                 </div>
               </div>
+              <a href="#" class="dhi-anc dhi-anc--filled d-xl-none">
+                <img src="images/icon/user.svg" alt="" />
+              </a>
             </div>
           </div>
         </div>
@@ -96,7 +99,6 @@
                     <a href="#">
                       <div class="icon">
                         <img src="images/icon/home.svg" alt="" />
-                        <span class="note"></span>
                       </div>
                       <div class="txt">Home</div>
                     </a>
@@ -105,6 +107,7 @@
                     <a href="#">
                       <div class="icon">
                         <img src="images/icon/message-square.svg" alt="" />
+                        <span class="note"></span>
                       </div>
                       <div class="txt">Messages</div>
                     </a>
@@ -125,12 +128,20 @@
                       <div class="txt">Buy a Car</div>
                     </a>
                   </li>
-                  <li>
+                  <li class="d-xl-block d-none">
                     <a href="#">
                       <div class="icon">
                         <img src="images/icon/settings.svg" alt="" />
                       </div>
                       <div class="txt">Profile</div>
+                    </a>
+                  </li>
+                  <li class="d-xl-none">
+                    <a href="#">
+                      <div class="icon">
+                        <img src="images/icon/download.svg" alt="" />
+                      </div>
+                      <div class="txt">Get App</div>
                     </a>
                   </li>
                 </ul>
@@ -145,11 +156,11 @@
               <div class="dm-section__row">
                 <div class="row">
                   <!-- main-side -->
-                  <div class="col-lg-8">
+                  <div class="col-xl-8">
                     <div class="row">
                       <!--  -->
                       <div class="col-12">
-                        <div class="dm-main-title">
+                        <div class="dm-main-title d-xl-block d-none">
                           <h2 class="mb-0">
                             2024 Acura Integra Sedan 4D 1.5L Turbo Auto...
                           </h2>
@@ -286,7 +297,7 @@
                       <!--  -->
                       <div class="col-12">
                         <div class="dm-bxw">
-                          <div class="dm-bxw__title">
+                          <div class="dm-bxw__title pb-md-0 pb-1">
                             <div class="left">
                               <h3 class="mb-0">Vehicle Reports</h3>
                             </div>
@@ -337,7 +348,7 @@
                             </div>
                           </div>
                           <div class="dm-bxw__main">
-                            <div class="recent-card__row row gy-3">
+                            <div class="recent-card__row row gy-md-3 gy-2">
                               <div class="col-lg-4 col-md-6">
                                 <div class="recent-card recent-card--hr">
                                   <a href="#" class="recent-card__image">
@@ -404,10 +415,15 @@
                   </div>
                   <!-- main-side-end -->
                   <!-- sidebar-side -->
-                  <div class="col-lg-4">
+                  <div class="col-xl-4 order-xl-0 order-first">
                     <div class="row">
                       <!--  -->
                       <div class="col-12">
+                        <div class="dm-main-title d-xl-none">
+                          <h2 class="mb-0">
+                            2024 Acura Integra Sedan 4D 1.5L Turbo Auto...
+                          </h2>
+                        </div>
                         <div class="dm-bxw">
                           <div class="dm-bxw__title">
                             <div class="left">
@@ -523,9 +539,11 @@
                                   data-bs-target="#nego-item-1"
                                 >
                                   <h4 class="mb-0">Incoming Offers</h4>
-                                  <div class="rd-status unread">1UNREAD</div>
-                                  <div class="ind">
-                                    <i class="far fa-chevron-down"></i>
+                                  <div class="right">
+                                    <div class="rd-status unread">1UNREAD</div>
+                                    <div class="ind">
+                                      <i class="far fa-chevron-down"></i>
+                                    </div>
                                   </div>
                                 </a>
                                 <div
@@ -534,7 +552,9 @@
                                 >
                                   <div class="nego-item__body__inner">
                                     <div class="neg-list">
-                                      <div class="neg-list-item">
+                                      <div
+                                        class="neg-list-item neg-list-item--htl"
+                                      >
                                         <div class="in-t-rw">
                                           <div class="left">
                                             <h5 class="mb-0">Highest Offer</h5>
@@ -554,7 +574,7 @@
                                             <span class="txt">Username</span>
                                           </div>
                                           <div class="right">
-                                            <h4 class="mb-0">$41,000</h4>
+                                            <h4 class="mb-0">$48,000</h4>
                                           </div>
                                         </div>
                                       </div>
@@ -605,9 +625,11 @@
                                   data-bs-target="#nego-item-2"
                                 >
                                   <h4 class="mb-0">Outgoing Offers</h4>
-                                  <div class="rd-status">0UNREAD</div>
-                                  <div class="ind">
-                                    <i class="far fa-chevron-down"></i>
+                                  <div class="right">
+                                    <div class="rd-status">0UNREAD</div>
+                                    <div class="ind">
+                                      <i class="far fa-chevron-down"></i>
+                                    </div>
                                   </div>
                                 </a>
                                 <div
@@ -616,7 +638,9 @@
                                 >
                                   <div class="nego-item__body__inner">
                                     <div class="neg-list">
-                                      <div class="neg-list-item">
+                                      <div
+                                        class="neg-list-item neg-list-item--htl"
+                                      >
                                         <div class="in-t-rw">
                                           <div class="left">
                                             <h5 class="mb-0">Highest Offer</h5>
@@ -636,7 +660,7 @@
                                             <span class="txt">Username</span>
                                           </div>
                                           <div class="right">
-                                            <h4 class="mb-0">$41,000</h4>
+                                            <h4 class="mb-0">$48,000</h4>
                                           </div>
                                         </div>
                                       </div>
