@@ -517,6 +517,38 @@ p:last-child{
   font-weight: 400;
   color: var(--theme__color1-dark);
 }
+
+
+
+
+.dropzone{
+
+}
+.dropzone .dz-message {
+  display: none !important;
+}
+.dropzone.dz-drag-hover {
+
+}
+.dropzone.dz-started {
+  
+}
+.dropzone.dz-started .custom-design {
+     opacity: 0;
+   }
+.dropzone .custom-design {
+       padding: 20px;
+       position: absolute;
+       top: 0;
+       left: 0;
+       width: 100%;
+       height: 100%;
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       text-align: center;
+       display: none;
+   }
 /* ---input-x---end */
 
 

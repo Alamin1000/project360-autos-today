@@ -23,6 +23,30 @@
       $(".offcanvas-overlay").removeClass("active");
     }
   });
+
+  //countdown
+  $("[data-countdown]").each(function () {
+    var $this = $(this),
+      finalDate = $(this).data("countdown");
+    $this.countdown(finalDate, function (event) {
+      $this.html(
+        event.strftime(
+          `<div class="time-count"><span class="time">%D <span class="colon">:</span></span> <span class="title">days</span></div>
+          <div class="time-count"><span class="time">%H <span class="colon">:</span></span> <span class="title">hour</span></div>
+          <div class="time-count"><span class="time">%M <span class="colon">:</span></span> <span class="title">minute</span></div>
+          <div class="time-count"><span class="time">%S <span class="colon">:</span></span> <span class="title">Second</span></div>`
+        )
+      );
+    });
+  });
+
+  // dropzon
+  // Dropzone.autoDiscover = true;
+
+  // let myDropzone = new Dropzone("#my-awesome-dropzone");
+  // myDropzone.on("addedfile", (file) => {
+  //   console.log(`File added: ${file.name}`);
+  // });
 })(jQuery);
 
 $(document).ready(function () {
