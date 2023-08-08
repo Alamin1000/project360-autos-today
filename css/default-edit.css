@@ -22,6 +22,9 @@
 .default-button--theme2 {
     background: var(--theme__color2);
 }
+.default-button--theme1-dark {
+    background: var(--theme__color1-dark);
+}
 /* ---button---end */
 
 

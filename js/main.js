@@ -32,9 +32,9 @@
       $this.html(
         event.strftime(
           `<div class="time-count"><span class="time">%D <span class="colon">:</span></span> <span class="title">days</span></div>
-          <div class="time-count"><span class="time">%H <span class="colon">:</span></span> <span class="title">hour</span></div>
-          <div class="time-count"><span class="time">%M <span class="colon">:</span></span> <span class="title">minute</span></div>
-          <div class="time-count"><span class="time">%S <span class="colon">:</span></span> <span class="title">Second</span></div>`
+          <div class="time-count"><span class="time">%H <span class="colon">:</span></span> <span class="title">hrs</span></div>
+          <div class="time-count"><span class="time">%M <span class="colon">:</span></span> <span class="title">mins</span></div>
+          <div class="time-count"><span class="time">%S </span> <span class="title">Sec</span></div>`
         )
       );
     });
